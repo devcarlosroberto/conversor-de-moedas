@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+    
+
+}
+
+body {
+    background-image: url(./melhor.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: table;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    color: white;
+    background-position: 30% 45%;
+    background-size: cover;
+
+
+}
+
+.img-logo {
+    display: block;
+
+    width: 100px;
+    margin: 0 auto 10px;
+    filter: drop-shadow(1px 2px 3px #678496);
+}
+
+main {
+    width: 320px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #d1d1d19c;
+    border: 1px solid #b7c7df;
+    border-radius: 20px;
+}
+
+label {
+    display: block;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4d4dec;
+}
+
+.convert-from,
+.convert-to,
+input {
+    padding-left: 15px;
+    margin-bottom: 3px;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    border: 1px solid #49565e;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #17addb;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #06271f;
+    transition: .3s;
+}
+
+button:active {
+    background-color: #12241f;
+    transition: .2s;
+}
+
+section {
+    border: 1px solid #1D3557;
+    border-radius: 10px;
+}
+
+.conversion-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.conversion-box .text-convert,
+.conversion-box .text-converted {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.conversion-box .value-convert,
+.conversion-box .value-converted {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.img-arrow {
+    display: block;
+    margin: 5px auto;
+}
+
+.img-convert,
+.img-converted {
+    filter: drop-shadow(2px 3px 3px #1D3557);
+    margin-bottom: 5px;
+}
+
+.text-convert,
+.text-converted,
+.value-convert,
+.value-converted {
+    color: #1D3557;
+}
