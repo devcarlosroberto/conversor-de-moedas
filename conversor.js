@@ -243,12 +243,12 @@ function changeConvertFrom(){
     const changeTextConvert = document.querySelector('.text-convert')
 
     if (selectFrom.value == 'dolar-us') {
-        changeImgConvert.src ="."
+        changeImgConvert.src ='assets/estados-unidos .png'
         changeTextConvert.innerHTML = 'Dólar americano'
     }
     
     if (selectFrom.value == 'dolar-au') {
-        changeImgConvert.src = 'assets/estados-unidos .png'
+        changeImgConvert.src = 'assets/australia.png'
         changeTextConvert.innerHTML = 'Dólar australiano'
     }
 
